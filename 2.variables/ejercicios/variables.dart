@@ -11,7 +11,7 @@ print(cantidadCarritos);
 //cantidadCarritos = 10;
 
 ///valor que no va a cambiar; const se declara en el tiempo de compilación.
-const velocidadDeLaLuz = 3000000;
+const velocidadDeLaLuz = 300;
 print(velocidadDeLaLuz);
 //velocidadDeLaLuz = 10;
 
