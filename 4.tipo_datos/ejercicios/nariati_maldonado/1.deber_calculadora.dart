@@ -7,15 +7,15 @@ void main() {
 void calcular() {
   double resultado = 0;
 
-  print("Eliga una opción:");
-  print("1: Sumar, 2: Restar, 3: Multiplicar, 4: Dividir");
-  int opcion = int.parse(stdin.readLineSync()!);
-
   print("Ingrese un número 1:");
   double numero1 = double.parse(stdin.readLineSync()!);
 
   print("Ingrese un número 2:");
   double numero2 = double.parse(stdin.readLineSync()!);
+
+  print("Eliga una opción:");
+  print("1: Sumar, 2: Restar, 3: Multiplicar, 4: Dividir");
+  int opcion = int.parse(stdin.readLineSync()!);
 
   if (opcion == 1) {
     resultado = sumar(numero1, numero2);
@@ -31,8 +31,7 @@ void calcular() {
     resultado = 0;
   } else {
     resultado = 0;
-  }
-  ;
+  } ;
 
   print("El resultado es: $resultado");
 }
