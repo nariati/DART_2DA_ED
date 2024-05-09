@@ -12,13 +12,13 @@ void main(){
   ///};
   ///
   
-  final perroObjeto = Animal("Cleo",10,"Cafe");
+  ////final perroObjeto = Animal("Cleo",10,"Cafe");
 
   ///final gatoObjeto  = Animal("Guantes",2,"Negro");
   
   ///final aveObjeto = Animal("Loro",10,"Verde");
 
-  print(perroObjeto.nombreMayusculas);
+  ///print(perroObjeto.nombreMayusculas);
 
 
 }
