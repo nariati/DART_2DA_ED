@@ -21,4 +21,3 @@ main()
     print("El numero es: $i");
   }
   
-  print("Fin del script");
